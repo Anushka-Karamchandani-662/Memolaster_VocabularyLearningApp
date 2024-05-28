@@ -1,0 +1,81 @@
+/* Add this CSS to your component or stylesheet */
+
+/* Ensure that the container is a flex container */
+.images-container {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set container height to 100% of viewport height */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Ensure that images and buttons are displayed as block elements */
+.image {
+  text-align: center; /* Center the content within each image container */
+  margin: 10px; /* Adjust the margin as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Style for the images */
+.Gameimage1 {
+  max-height: 50vh;
+  width: 50%;
+  margin-top: -180px;
+  border-radius: 10%;
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Remove any extra spacing */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.Gameimage1:hover {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+/* Style for the buttons */
+.image-button {
+  margin-top: 40px; /* Add some space between the image and the button */
+  padding: 8px 16px; /* Adjust padding as needed */
+  color: black !important;
+  font-size: 24px; /* Set font size to 24px */
+  font-weight: bold; /* Set font weight to bold */
+  background-color: transparent; /* Set initial background color */
+  text-decoration: none !important;
+  transition: background-color 0.3s; /* Add a smooth transition effect for background color */
+  transition: transform 0.3s, background-color 0.3s; /* Add a smooth transition effect for transform and background color */
+}
+
+.image-button:hover {
+  background-color: #ffb000 !important; /* Change background color to red on hover */
+  transform: scale(1.1); /* Scale and rotate the button on hover */
+}
+.image:first-child .image-button {
+  background-color: #add8e6; /* Light red color for the first button */
+  border-radius: 8px;
+  border: 5px solid #005875; /* Add a border for better visibility */
+  color: #005875 !important;
+}
+.image:nth-child(2) .image-button {
+  background-color: lightgreen; /* Light green color for the second button */
+  border-radius: 8px; /* Add rounded edges */
+  border: 5px solid rgb(0, 92, 0); /* Add a border for better visibility */
+  color: rgb(0, 92, 0) !important;
+}
+
+.image:nth-child(3) .image-button {
+  background-color: lightcoral; /* Light red color for the third button */
+  border-radius: 8px; /* Add rounded edges */
+  border: 5px solid rgb(142, 10, 10); /* Add a border for better visibility */
+  color: rgb(142, 10, 10) !important;
+}
+.image:nth-child(4) .image-button {
+  background-color: #dfa5ef; /* Light red color for the third button */
+  border-radius: 8px; /* Add rounded edges */
+  border: 5px solid #670a81; /* Add a border for better visibility */
+  color: #670a81 !important;
+}

@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800;900&family=Quicksand:wght@700&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 150vh;
+  background-image: url("../images/WordFinder.png");
+  background-size: cover; /* Cover the entire container */
+  background-position: top;
+  padding: 150px;
+  margin-top: 150px;
+  padding-top: 50px;
+  width: 100%;
+  margin-bottom: 150px;
+  border-radius: 20px;
+  box-sizing: content-box; /* or box-sizing: border-box; */
+}
+.word-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 5px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3b7e86;
+  background-color: #fffe87;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.letter.visible {
+  opacity: 1;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guess-section {
+  margin-bottom: 30px;
+}
+
+.restart-button,
+.remove-button {
+  padding: 12px 20px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #3ef805;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.remove-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.restart-button:hover,
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+
+.restart-button:focus,
+.remove-button:focus {
+  outline: none;
+}
+
+.letter-selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.letter-button {
+  padding: 8px 10px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0b5d66;
+  background-color: #fffe87;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-family: "Quicksand", sans-serif;
+}
+
+.letter-button.selected {
+  background-color: #1976d2;
+}
+
+.letter-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.hints {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #22003e;
+  font-family: "Quicksand", sans-serif;
+}
+
+.hint-button {
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #22003e;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-family: "Quicksand", sans-serif;
+}
+
+.hint-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.hint-button:hover {
+  background-color: #481c6c;
+}
+
+.hint-button:focus {
+  outline: none;
+}
+
+.message {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.guess-button {
+  padding: 12px 30px;
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #e81616;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-family: "Quicksand", sans-serif;
+}
+
+.guess-button:disabled {
+  background-color: #615f5f;
+  cursor: not-allowed;
+}
+
+.guess-button:hover {
+  background-color: #f46767;
+  color: #000000;
+}
+
+.guess-button:focus {
+  outline: none;
+}
+.word-description {
+  font-size: 32px;
+  font-style: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}

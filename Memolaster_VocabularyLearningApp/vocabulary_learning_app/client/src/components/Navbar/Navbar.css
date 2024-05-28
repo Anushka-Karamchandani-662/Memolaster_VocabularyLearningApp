@@ -1,0 +1,103 @@
+.active {
+  background-color: #db3434;
+  color: white;
+  border: 1px solid #db3434;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #59a4ad;
+  color: white;
+  position: fixed; /* Change this to fixed */
+  top: 0;
+  width: 100%; /* Make it full-width */
+  z-index: 1000;
+  /* Add z-index to ensure it's above other content */
+}
+
+nav ul {
+  display: flex;
+  padding-right: 70px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+nav ul li a:not(.active):hover {
+  background-color: #deeeef;
+  color: #000000;
+}
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  color: #333333;
+}
+
+nav .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.2rem;
+}
+.logo {
+  display: inline-block;
+  height: 7rem;
+  width: 22rem;
+  padding-left: 30px;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    max-width: 50%; /* Adjust the max-width for smaller screens as needed */
+    max-height: 22px; /* Adjust the max-height for smaller screens as needed */
+  }
+  nav .menu {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    margin: 0.2rem 0.5rem;
+  }
+}

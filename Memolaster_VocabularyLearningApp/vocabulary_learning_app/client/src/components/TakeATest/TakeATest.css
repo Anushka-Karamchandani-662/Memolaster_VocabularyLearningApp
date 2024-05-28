@@ -1,0 +1,84 @@
+/* TakeATest.css */
+
+.instruction {
+  max-width: 900px;
+  margin-top: 150px !important;
+  margin-left: 25%;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #3b7e86;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 550px;
+}
+
+.h1test {
+  margin-top: 30px;
+  color: #ffde59;
+  font-size: 52px;
+  text-decoration: underline;
+}
+
+.instruction ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin-left: 55px;
+  margin-top: 35px;
+}
+
+.instruction li {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.instruction div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.instruction a {
+  text-decoration: none;
+}
+
+.instruction span {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.instruction .Quizleft {
+  background-color: #f6adad;
+  border: 3px solid #990000;
+}
+.linkquiz1 {
+  color: #990000;
+}
+.linkquiz2 {
+  color: #044700;
+}
+.instruction .Quizright {
+  background-color: #80fb79;
+  border: 3px solid #044700;
+}
+.h3score {
+  color: rgb(255, 108, 235);
+  font-size: 35px;
+}
+.psum {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.correct {
+  color: #81ff7a;
+}
+.wrong {
+  color: #f9b3b3;
+}
+.h3score1 {
+  color: rgb(255, 108, 235);
+  font-size: 30px;
+}

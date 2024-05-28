@@ -1,0 +1,36 @@
+.table-container {
+    padding: 40px 40px 5px 80px;
+    display: table;
+    width: 90%;
+    
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    width: 200px;
+}
+
+.header {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.add-to-cart-btn {
+    background-color: green; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}

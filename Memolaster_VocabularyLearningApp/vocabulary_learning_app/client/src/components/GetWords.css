@@ -1,0 +1,233 @@
+.table-container1 {
+  margin-top: 0;
+
+  display: table;
+  width: 95%;
+
+  border-spacing: 15px; /* Add a gap of 10px between cells */
+  margin-left: auto; /* Auto margin left and right to center the table */
+  margin-right: auto;
+}
+
+.table-row1 {
+  display: table-row;
+  margin-top: 0; /* Add this line to remove space */
+
+  margin-left: 20px !important;
+}
+
+.table-cell1 {
+  display: table-cell;
+  padding: 20px;
+
+  width: 300px;
+
+  align-items: center;
+  margin-top: -10px !important;
+  margin-left: 20px !important;
+  padding-left: 20px;
+}
+.head1 {
+  background-color: #028d4a !important;
+  color: #b4fad8;
+  font-size: 25px;
+  text-align: center;
+  border: #004825 3px solid;
+  margin-bottom: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+}
+.item1 {
+  background-color: #b4fad8 !important;
+  color: #004825;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+  border: #004825 3px solid;
+}
+.head2 {
+  background-color: #ea7474 !important;
+  color: #ffdede;
+  font-size: 25px;
+  text-align: center;
+  border: #953a3a 3px solid;
+  margin-bottom: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+}
+.item2 {
+  background-color: #ffdede !important;
+  color: #953a3a;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+  border: #953a3a 3px solid;
+}
+.head3 {
+  background-color: #b905eb !important;
+  color: #f5cfff;
+  font-size: 25px;
+  text-align: center;
+  border: #640080 3px solid;
+  margin-bottom: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+}
+.item3 {
+  background-color: #f0b9ff !important;
+  color: #640080;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+  border: #640080 3px solid;
+}
+.head4 {
+  background-color: rgb(255, 166, 0) !important;
+  color: rgb(252, 240, 218);
+  font-size: 25px;
+  text-align: center;
+  border: rgb(206, 134, 0) 3px solid;
+  margin-bottom: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+}
+.item4 {
+  background-color: rgb(255, 228, 176) !important;
+  color: rgb(181, 118, 3);
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+  border: rgb(206, 134, 0) 3px solid;
+}
+.head5 {
+  background-color: #c8007b !important;
+  color: rgb(255, 226, 244);
+  font-size: 25px;
+  text-align: center;
+  border: #a00163 3px solid;
+  margin-bottom: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+}
+.item5 {
+  background-color: rgb(255, 192, 231) !important;
+
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0 !important; /* Add this line to remove space */
+  font-weight: 700;
+  border: #a00163 3px solid;
+}
+.add-to-cart-btn1 {
+  background-color: #a00163; /* Green */
+  border: none;
+  color: rgb(246, 206, 231);
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px !important;
+  font-weight: 700;
+  margin-top: 20px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.5s ease !important; /* Slow transition for background color */
+}
+
+.add-to-cart-btn1:hover {
+  background-color: #c8007b; /* Darker green on hover */
+}
+
+.notification {
+  position: fixed;
+  top: 125px;
+  left: 30%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 128, 0, 0.8); /* Green with transparency */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 9999; /* Ensure it's above other elements */
+  transition: opacity 0.5s ease; /* Fade in/out effect */
+}
+
+.notification.hide {
+  opacity: 0; /* Make the notification invisible */
+}
+.buttonrevise {
+  background-color: rgb(246, 211, 147);
+  color: black;
+  padding: 10px 20px;
+  border: 5px solid rgb(255, 153, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 150px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.buttonrevise:hover {
+  background-color: rgb(255, 153, 0);
+  color: black;
+  border: 5px solid rgb(246, 211, 147);
+}
+
+.buttonlogout {
+  background-color: rgb(247, 164, 164);
+  color: black;
+  padding: 10px 20px;
+  border: 5px solid rgb(134, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 150px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 70px;
+}
+
+.buttonlogout:hover {
+  background-color: rgb(134, 0, 0);
+  color: #f0f0f0;
+  border: 5px solid rgb(247, 164, 164);
+}
+
+.h1words {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 0px !important;
+  margin-left: 10%;
+  color: white;
+  text-shadow: 0 0 5px rgb(50, 50, 50), 0 0 5px rgb(50, 50, 50),
+    0 0 10px rgb(50, 50, 50), 0 0 5px rgb(50, 50, 50), 0 0 5px rgb(50, 50, 50),
+    0 0 10px rgb(50, 50, 50), 0 0 10px rgb(50, 50, 50), 0 0 15px rgb(50, 50, 50);
+  text-decoration: underline;
+}
+.nextbutton {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 10px 20px;
+  border: 5px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+
+  transition: background-color 0.3s, color 0.3s;
+}
+.nextbutton:hover {
+  background-color: black;
+  color: white;
+  border: 5px solid rgb(50, 50, 50);
+}
+.revise1 {
+  margin-top: 40px;
+}
+.h1revise {
+  margin-top: 30px !important;
+  margin-left: 60px;
+}

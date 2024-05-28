@@ -1,0 +1,247 @@
+[
+    {
+        "question": "What is the meaning of the word 'account'?",
+        "optionA": "A. A financial record of income and expenses.",
+        "optionB": "B. To explain or justify a situation.",
+        "optionC": "C. An arrangement to receive goods.",
+        "optionD": "D. To consider something as a factor.",
+        "answer": "A. A financial record of income and expenses."
+      }
+      ,
+
+      {
+        "question": "What is the meaning of the word 'active'?",
+        "optionA": "A. Energetic and engaged in physical activity.",
+        "optionB": "B. Currently in progress or operation.",
+        "optionC": "C. Having a lively and dynamic personality.",
+        "optionD": "D. Showing strong support or participation.",
+        "answer": "B. Currently in progress or operation."
+      },
+
+      {
+        "question": "What is the meaning of the word 'actual'?",
+        "optionA": "A. Theoretical or hypothetical.",
+        "optionB": "B. Genuine or real.",
+        "optionC": "C. Past or historical.",
+        "optionD": "D. Imminent or about to happen.",
+        "answer": "B. Genuine or real."
+      },
+      {
+        "question": "What does the word 'add' mean?",
+        "optionA": "A. Subtracting or removing.",
+        "optionB": "B. Combining or increasing.",
+        "optionC": "C. Dividing or sharing.",
+        "optionD": "D. Ignoring or neglecting.",
+        "answer": "B. Combining or increasing."
+      },
+      {
+        "question": "What is the meaning of the word 'address'?",
+        "optionA": "A. A formal speech or presentation.",
+        "optionB": "B. The location or direction of a place.",
+        "optionC": "C. To avoid or disregard.",
+        "optionD": "D. A written communication sent to someone.",
+        "answer": "B. The location or direction of a place."
+      },
+      {
+        "question": "What does the word 'admit' mean?",
+        "optionA": "A. To refuse or reject.",
+        "optionB": "B. To confess or acknowledge.",
+        "optionC": "C. To investigate or inquire.",
+        "optionD": "D. To delay or postpone.",
+        "answer": "B. To confess or acknowledge."
+      },
+      {
+        "question": "What is the meaning of the word 'afternoon'?",
+        "optionA": "A. The period before noon.",
+        "optionB": "B. The time after sunset.",
+        "optionC": "C. The middle of the day.",
+        "optionD": "D. The late evening.",
+        "answer": "C. The middle of the day."
+      },
+      {
+        "question": "What does the word 'base' mean?",
+        "optionA": "A. To elevate or lift.",
+        "optionB": "B. To support or found.",
+        "optionC": "C. To decrease or diminish.",
+        "optionD": "D. To rotate or spin.",
+        "answer": "B. To support or found."
+      },
+      {
+        "question": "What is the meaning of the word 'begin'?",
+        "optionA": "A. To conclude or finish.",
+        "optionB": "B. To start or commence.",
+        "optionC": "C. To ignore or neglect.",
+        "optionD": "D. To delay or procrastinate.",
+        "answer": "B. To start or commence."
+      },
+      {
+        "question": "What does the word 'birth' mean?",
+        "optionA": "A. Death or demise.",
+        "optionB": "B. To decline or deteriorate.",
+        "optionC": "C. To create or bring into existence.",
+        "optionD": "D. To vanish or disappear.",
+        "answer": "C. To create or bring into existence."
+      },
+
+      {
+        "question": "What is the meaning of the word 'acme'?",
+        "optionA": "A. A hollow space or container.",
+        "optionB": "B. The highest point or peak.",
+        "optionC": "C. A sudden and violent event.",
+        "optionD": "D. A type of fruit.",
+        "answer": "B. The highest point or peak."
+      },
+      {
+        "question": "What does the word 'advocate' mean?",
+        "optionA": "A. To criticize or condemn.",
+        "optionB": "B. To support or recommend.",
+        "optionC": "C. To hesitate or waver.",
+        "optionD": "D. To investigate or inquire.",
+        "answer": "B. To support or recommend."
+      },
+      {
+        "question": "What is the meaning of the word 'amiable'?",
+        "optionA": "A. Hostile or unfriendly.",
+        "optionB": "B. Pleasant and friendly.",
+        "optionC": "C. Fearful or anxious.",
+        "optionD": "D. Confused or disoriented.",
+        "answer": "B. Pleasant and friendly."
+      },
+      {
+        "question": "What does the word 'amply' mean?",
+        "optionA": "A. Insufficiently or inadequately.",
+        "optionB": "B. Abundantly or sufficiently.",
+        "optionC": "C. Quickly or hastily.",
+        "optionD": "D. Angrily or aggressively.",
+        "answer": "B. Abundantly or sufficiently."
+      },
+      {
+        "question": "What is the meaning of the word 'ascendancy'?",
+        "optionA": "A. A state of decline or deterioration.",
+        "optionB": "B. The act of ascending or rising.",
+        "optionC": "C. A strong and lasting friendship.",
+        "optionD": "D. A sudden and unexpected event.",
+        "answer": "B. The act of ascending or rising."
+      },
+      {
+        "question": "What does the word 'bleak' mean?",
+        "optionA": "A. Bright and cheerful.",
+        "optionB": "B. Harsh and desolate.",
+        "optionC": "C. Warm and inviting.",
+        "optionD": "D. Fragile and delicate.",
+        "answer": "B. Harsh and desolate."
+      },
+      {
+        "question": "What is the meaning of the word 'boorish'?",
+        "optionA": "A. Refined and sophisticated.",
+        "optionB": "B. Crude and insensitive.",
+        "optionC": "C. Energetic and lively.",
+        "optionD": "D. Mysterious and enigmatic.",
+        "answer": "B. Crude and insensitive."
+      },
+      {
+        "question": "What does the word 'candid' mean?",
+        "optionA": "A. Deceptive or misleading.",
+        "optionB": "B. Honest and straightforward.",
+        "optionC": "C. Unstable or unpredictable.",
+        "optionD": "D. Elaborate or complex.",
+        "answer": "B. Honest and straightforward."
+      },
+      {
+        "question": "What is the meaning of the word 'cavalier'?",
+        "optionA": "A. Respectful and courteous.",
+        "optionB": "B. Arrogant and disdainful.",
+        "optionC": "C. Shy and reserved.",
+        "optionD": "D. Timid and fearful.",
+        "answer": "B. Arrogant and disdainful."
+      },
+      {
+        "question": "What does the word 'chivalrous' mean?",
+        "optionA": "A. Cowardly and timid.",
+        "optionB": "B. Brave and honorable.",
+        "optionC": "C. Aggressive and hostile.",
+        "optionD": "D. Mysterious and elusive.",
+        "answer": "B. Brave and honorable."
+      },
+      {
+        "question": "What does the word 'adjudicate' mean?",
+        "optionA": "A. To argue or dispute.",
+        "optionB": "B. To judge or settle officially.",
+        "optionC": "C. To admire or praise.",
+        "optionD": "D. To hesitate or waver.",
+        "answer": "B. To judge or settle officially."
+      },
+      {
+        "question": "What is the meaning of the word 'chagrin'?",
+        "optionA": "A. A state of embarrassment or annoyance.",
+        "optionB": "B. A feeling of joy and elation.",
+        "optionC": "C. A type of clothing.",
+        "optionD": "D. A form of dance.",
+        "answer": "A. A state of embarrassment or annoyance."
+      },
+      {
+        "question": "What does the word 'dissemble' mean?",
+        "optionA": "A. To reveal or disclose.",
+        "optionB": "B. To pretend or conceal one's true feelings.",
+        "optionC": "C. To apologize or express regret.",
+        "optionD": "D. To achieve or accomplish.",
+        "answer": "B. To pretend or conceal one's true feelings."
+      },
+      {
+        "question": "What is the meaning of the word 'doughty'?",
+        "optionA": "A. Timid and fearful.",
+        "optionB": "B. Brave and courageous.",
+        "optionC": "C. Deceptive and cunning.",
+        "optionD": "D. Fragile and delicate.",
+        "answer": "B. Brave and courageous."
+      },
+      {
+        "question": "What does the word 'effrontery' mean?",
+        "optionA": "A. Modesty and humility.",
+        "optionB": "B. Boldness or audacity.",
+        "optionC": "C. Timidity or shyness.",
+        "optionD": "D. Dullness or apathy.",
+        "answer": "B. Boldness or audacity."
+      },
+      {
+        "question": "What is the meaning of the word 'encumber'?",
+        "optionA": "A. To assist or support.",
+        "optionB": "B. To hinder or burden.",
+        "optionC": "C. To clarify or explain.",
+        "optionD": "D. To observe or watch.",
+        "answer": "B. To hinder or burden."
+      },
+      {
+        "question": "What does the word 'enormity' mean?",
+        "optionA": "A. Smallness or insignificance.",
+        "optionB": "B. Immensity or extreme scale.",
+        "optionC": "C. Delicacy or refinement.",
+        "optionD": "D. Lightheartedness or cheerfulness.",
+        "answer": "B. Immensity or extreme scale."
+      },
+      {
+        "question": "What is the meaning of the word 'lacerate'?",
+        "optionA": "A. To soothe or comfort.",
+        "optionB": "B. To criticize or condemn.",
+        "optionC": "C. To tear or mangle.",
+        "optionD": "D. To inspire or uplift.",
+        "answer": "C. To tear or mangle."
+      },
+      {
+        "question": "What does the word 'oblique' mean?",
+        "optionA": "A. Direct or straightforward.",
+        "optionB": "B. Indirect or slanting.",
+        "optionC": "C. Rigid or inflexible.",
+        "optionD": "D. Simple or uncomplicated.",
+        "answer": "B. Indirect or slanting."
+      },
+      {
+        "question": "What is the meaning of the word 'palimpsest'?",
+        "optionA": "A. A written document with erasures and changes.",
+        "optionB": "B. A colorful and vibrant display.",
+        "optionC": "C. A musical composition for a small ensemble.",
+        "optionD": "D. A type of architectural structure.",
+        "answer": "A. A written document with erasures and changes."
+      }      
+
+]

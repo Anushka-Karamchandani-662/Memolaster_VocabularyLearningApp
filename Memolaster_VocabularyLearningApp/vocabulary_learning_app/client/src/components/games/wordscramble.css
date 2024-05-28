@@ -1,0 +1,105 @@
+.wordscramblebody {
+  font-family: "Arial", sans-serif;
+  background-color: #ecf4ff; /* Light bluish background color */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.3rem;
+}
+.wordscrambleh1 {
+  font-size: 3.5rem;
+  margin-top: 3rem;
+}
+.wordscramblep {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+.word-scramble-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.164); /* Transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(
+    10px
+  ); /* Apply backdrop filter for glassmorphism effect */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Slightly increased shadow */
+  width: 70rem;
+  height: 45rem;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+  background-color: #ecf4ff;
+  margin-top: 10rem;
+} /* Light bluish background color */
+/* margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.3rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Set the width of the input to auto and add margin-right for spacing */
+.wordscrambleinput {
+  width: 4rem; /* Slightly increased input width */
+  height: 3rem;
+  padding: 12px; /* Increased padding for better touch */
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc; /* Added a light border for better separation */
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+.wordscramblebutton {
+  background-color: #5bc0de !important;
+  color: #000000 !important;
+  padding: 10px 16px; /* Increased button padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 3px;
+  transition: background-color 0.3s ease;
+  font-size: 1.5rem;
+  height: 3rem;
+  font-style: bold !important;
+  /* font-size: 1rem; */
+}
+
+.wordscramblebutton:hover {
+  background-color: #4ca8c8;
+}
+
+.message {
+  color: #e44d26;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px; /* Increased font size for better visibility */
+}
+
+.submit {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.wordscramblehint {
+  margin-right: 1rem;
+  margin-left: 8.2rem;
+}
+
+.prev {
+  /* margin-top: 1rem; */
+
+  /* margin-right: 27rem;  */
+}
+
+.next {
+  /* margin-right: -20rem; */
+}

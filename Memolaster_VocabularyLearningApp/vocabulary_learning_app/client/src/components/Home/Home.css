@@ -1,0 +1,100 @@
+/* .quoteImage {
+  height: 50%;
+  width: 50%;
+} */
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #deeeef;
+  height: 95vh;
+  margin-top: -10px !important;
+}
+
+.background-image {
+  width: 80%; /* Set the width to 100% */
+  max-height: 85vh; /* Adjust the max-height as needed */
+  display: block;
+}
+
+.overlay-button {
+  position: absolute;
+  top: 80%; /* Adjust as needed */
+  left: 70%; /* Center-align the button */
+  padding: 10px 20px;
+  background-color: #db3434; /* Adjust button styles as needed */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 200px;
+  font-weight: 800px;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #deeeef;
+  max-height: 105vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.background-video {
+  width: 100%;
+  max-width: 100%;
+  height: 85vh;
+  object-fit: contain; /* or object-fit: fill; */
+  margin-top: 30px;
+}
+.breaker {
+  width: 95%;
+  max-height: 25vh;
+  background-color: #aa8345;
+  border: 5px solid #aa8345;
+  margin: 0 auto; /* Center-align the element horizontally */
+  opacity: 0.5;
+  border-radius: 3px;
+}
+.footer {
+  text-align: center;
+  background-color: rgba(82, 82, 82, 0.7);
+  color: #fff;
+  padding: 10px;
+}
+
+.footer p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(
+    0,
+    0,
+    0
+  ); /* This color might be problematic, change it to an appropriate color */
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.footer .left {
+  text-align: left;
+  padding-left: 15%;
+}
+
+.footer .right {
+  text-align: right;
+  padding-right: 15%;
+}
+/* If there are other styles affecting the background color, try adding the background color to the body or HTML element as well */
+body,
+html {
+  background-color: #deeeef;
+  margin: 0;
+  padding: 0;
+}
